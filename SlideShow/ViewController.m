@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "SlideShowView.h"
 @interface ViewController ()
 
 @end
@@ -16,12 +16,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    SlideShowView *slideShow = [[SlideShowView alloc] initWithFrame:self.view.bounds];
+    [slideShow setImageList:[self tmpImgList]];
+    [self.view addSubview:slideShow];
+    
+    [slideShow beginShow];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+- (NSMutableArray *) tmpImgList {
+    NSMutableArray *tmpList = [NSMutableArray array];
+    for (int i = 0; i < 11; i++) {
+        [tmpList addObject:[UIImage imageNamed:[NSString stringWithFormat:@"%d.jpg", i]]];
+    }
+    return tmpList;
 }
+
 
 @end

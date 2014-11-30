@@ -14,6 +14,18 @@
 		EFBFDB7C1A2B41C800A2BBB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFBFDB7B1A2B41C800A2BBB5 /* Images.xcassets */; };
 		EFBFDB7F1A2B41C800A2BBB5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFBFDB7D1A2B41C800A2BBB5 /* LaunchScreen.xib */; };
 		EFBFDB8B1A2B41C800A2BBB5 /* SlideShowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBFDB8A1A2B41C800A2BBB5 /* SlideShowTests.m */; };
+		EFBFDB961A2B4D4D00A2BBB5 /* SlideShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBFDB951A2B4D4D00A2BBB5 /* SlideShowView.m */; };
+		EFBFDBA21A2B56F400A2BBB5 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFBFDB991A2B56F400A2BBB5 /* 1.jpg */; };
+		EFBFDBA31A2B56F400A2BBB5 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFBFDB9A1A2B56F400A2BBB5 /* 2.jpg */; };
+		EFBFDBA41A2B56F400A2BBB5 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFBFDB9B1A2B56F400A2BBB5 /* 3.jpg */; };
+		EFBFDBA51A2B56F400A2BBB5 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFBFDB9C1A2B56F400A2BBB5 /* 4.jpg */; };
+		EFBFDBA61A2B56F400A2BBB5 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFBFDB9D1A2B56F400A2BBB5 /* 5.jpg */; };
+		EFBFDBA71A2B56F400A2BBB5 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFBFDB9E1A2B56F400A2BBB5 /* 7.jpg */; };
+		EFBFDBA81A2B56F400A2BBB5 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFBFDB9F1A2B56F400A2BBB5 /* 8.jpg */; };
+		EFBFDBA91A2B56F400A2BBB5 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFBFDBA01A2B56F400A2BBB5 /* 9.jpg */; };
+		EFBFDBAA1A2B56F400A2BBB5 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFBFDBA11A2B56F400A2BBB5 /* 10.jpg */; };
+		EFBFDBAC1A2B574500A2BBB5 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFBFDBAB1A2B574500A2BBB5 /* 0.jpg */; };
+		EFBFDBAE1A2B578A00A2BBB5 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFBFDBAD1A2B578A00A2BBB5 /* 6.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +52,19 @@
 		EFBFDB841A2B41C800A2BBB5 /* SlideShowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideShowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFBFDB891A2B41C800A2BBB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFBFDB8A1A2B41C800A2BBB5 /* SlideShowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideShowTests.m; sourceTree = "<group>"; };
+		EFBFDB941A2B4D4D00A2BBB5 /* SlideShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideShowView.h; sourceTree = "<group>"; };
+		EFBFDB951A2B4D4D00A2BBB5 /* SlideShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideShowView.m; sourceTree = "<group>"; };
+		EFBFDB991A2B56F400A2BBB5 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		EFBFDB9A1A2B56F400A2BBB5 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		EFBFDB9B1A2B56F400A2BBB5 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		EFBFDB9C1A2B56F400A2BBB5 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		EFBFDB9D1A2B56F400A2BBB5 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		EFBFDB9E1A2B56F400A2BBB5 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		EFBFDB9F1A2B56F400A2BBB5 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		EFBFDBA01A2B56F400A2BBB5 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		EFBFDBA11A2B56F400A2BBB5 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		EFBFDBAB1A2B574500A2BBB5 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		EFBFDBAD1A2B578A00A2BBB5 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +114,8 @@
 				EFBFDB7B1A2B41C800A2BBB5 /* Images.xcassets */,
 				EFBFDB7D1A2B41C800A2BBB5 /* LaunchScreen.xib */,
 				EFBFDB6E1A2B41C700A2BBB5 /* Supporting Files */,
+				EFBFDB941A2B4D4D00A2BBB5 /* SlideShowView.h */,
+				EFBFDB951A2B4D4D00A2BBB5 /* SlideShowView.m */,
 			);
 			path = SlideShow;
 			sourceTree = "<group>";
@@ -96,6 +123,17 @@
 		EFBFDB6E1A2B41C700A2BBB5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EFBFDBAB1A2B574500A2BBB5 /* 0.jpg */,
+				EFBFDB991A2B56F400A2BBB5 /* 1.jpg */,
+				EFBFDB9A1A2B56F400A2BBB5 /* 2.jpg */,
+				EFBFDB9B1A2B56F400A2BBB5 /* 3.jpg */,
+				EFBFDB9C1A2B56F400A2BBB5 /* 4.jpg */,
+				EFBFDB9D1A2B56F400A2BBB5 /* 5.jpg */,
+				EFBFDBAD1A2B578A00A2BBB5 /* 6.jpg */,
+				EFBFDB9E1A2B56F400A2BBB5 /* 7.jpg */,
+				EFBFDB9F1A2B56F400A2BBB5 /* 8.jpg */,
+				EFBFDBA01A2B56F400A2BBB5 /* 9.jpg */,
+				EFBFDBA11A2B56F400A2BBB5 /* 10.jpg */,
 				EFBFDB6F1A2B41C800A2BBB5 /* Info.plist */,
 				EFBFDB701A2B41C800A2BBB5 /* main.m */,
 			);
@@ -199,9 +237,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFBFDBAE1A2B578A00A2BBB5 /* 6.jpg in Resources */,
+				EFBFDBAA1A2B56F400A2BBB5 /* 10.jpg in Resources */,
+				EFBFDBA81A2B56F400A2BBB5 /* 8.jpg in Resources */,
+				EFBFDBA51A2B56F400A2BBB5 /* 4.jpg in Resources */,
+				EFBFDBA31A2B56F400A2BBB5 /* 2.jpg in Resources */,
 				EFBFDB7A1A2B41C800A2BBB5 /* Main.storyboard in Resources */,
+				EFBFDBA61A2B56F400A2BBB5 /* 5.jpg in Resources */,
+				EFBFDBAC1A2B574500A2BBB5 /* 0.jpg in Resources */,
 				EFBFDB7F1A2B41C800A2BBB5 /* LaunchScreen.xib in Resources */,
 				EFBFDB7C1A2B41C800A2BBB5 /* Images.xcassets in Resources */,
+				EFBFDBA71A2B56F400A2BBB5 /* 7.jpg in Resources */,
+				EFBFDBA91A2B56F400A2BBB5 /* 9.jpg in Resources */,
+				EFBFDBA41A2B56F400A2BBB5 /* 3.jpg in Resources */,
+				EFBFDBA21A2B56F400A2BBB5 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +271,7 @@
 				EFBFDB771A2B41C800A2BBB5 /* ViewController.m in Sources */,
 				EFBFDB741A2B41C800A2BBB5 /* AppDelegate.m in Sources */,
 				EFBFDB711A2B41C800A2BBB5 /* main.m in Sources */,
+				EFBFDB961A2B4D4D00A2BBB5 /* SlideShowView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +393,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SlideShow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,7 +405,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SlideShow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
